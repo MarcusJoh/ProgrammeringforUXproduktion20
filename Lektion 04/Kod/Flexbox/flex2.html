@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+.flex-horiz-container {	
+  display: flex;	
+  flex-direction: row;
+}
+.left { 
+  flex-basis: 50vw;
+  background-color: rgb(168, 129, 129); 
+}
+.rest1 { 
+  flex-grow: 1; /* Tar en andel */
+  background-color: rgb(175, 218, 57);
+}
+
+.rest2 { 
+  flex-grow: 2; /* Tar två andelar */
+  background-color: rgb(61, 110, 61);
+}
+
+div {
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+<h1>Flexible Boxes Grow</h1>
+
+
+
+<section class="flex-horiz-container">
+  <div class="left"> Tar en bestämd bredd </div>
+  <div class="rest1"> Tar en andel</div>
+  <div class="rest2"> Tar två andelar</div>
+  <div class="rest1"> Tar en andel</div>
+</section>
+
+
+</body>
+</html>

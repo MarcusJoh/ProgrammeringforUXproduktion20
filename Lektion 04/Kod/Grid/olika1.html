@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID-Olika1</title>
+
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap:3px;
+            background: #fff;
+        }
+
+        .large {
+            grid-column: 2 / span 2;  /* Start på column 2, och två kolumner bred */
+            grid-row: 1 / span 4; /* Start på rad 1, och fyra rader lång */
+            background-color:peru;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            height: 25vh;
+        }
+
+        div{
+            background: #eaeaea;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="grid-container">
+        <div> A1 </div>
+        <div class="large"> A2-C4 </div>
+        <div> B1 </div> 
+        <div> C1 </div>
+        <div> D1 </div>
+    </div>
+</body>
+</html>

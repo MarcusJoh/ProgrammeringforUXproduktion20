@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang=“sv">
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<title>Sidans titel</title>
+	</head>	
+	<body>
+
+<h1> Formulärelement</h1>
+
+<form action="http://primat.se/services/sendform.aspx?recipient=micke@primat.se" method="post">
+
+	Input / Text: <input name="name" type="text" placeholder="Your name"><br><br>
+
+	Input / file: <input type="file" name="file"><br><br>
+	
+	Button / Button: <button type="button" onclick="alert('Hejsan Svejsan!')">Klicka!</button><br><br>
+
+	Input / Radio: <br><input type="radio" name="Middag" id="rad1" value="Kött"/><label for="rad1">Kött</label> <br>
+	<input type="radio" name="Middag" id="rad2" value="Fisk"/><label for="rad2" >Fisk</label> <br>
+	<input type="radio" name="Middag" id="rad3" value="Veg"/><label for="rad3" >Vegetariskt</label> 
+
+	<br><br>
+	Input / checkbox: <input type="checkbox" name="Nyhetsbrev" id="check1"/>
+	<label for="check1">Jag vill ha nyhetsbrev</label><br><br>
+
+	Input / Hidden : <input type="hidden" name="hidden_email" value="nisse@abc.se"/><br><br>
+
+	Textarea: <textarea name="message" placeholder="Your message" rows="4" cols="50"></textarea><br><br>
+
+	Select: 	<select name="cars">
+				<option value="">Välj...</option>
+  				<option value="volvo">Volvo</option>
+  				<option value="tesla">Tesla</option>
+  				<option value="toyota">Toyota</option>
+  				<option value="audi">Audi</option>
+			</select><br><br>
+
+Select + Optgroup : 	<select>
+				<optgroup label="Bilar">
+					<option>Volvo</option>
+					<option>Saab</option>
+				</optgroup>
+				<optgroup label="Djur">
+					<option>Hund</option>
+					<option selected>Katt</option>
+				</optgroup>
+			</select><br><br>
+
+	Datalist : 	<input list="browsers">
+  				<datalist id="browsers">
+    				<option value="Internet Explorer">
+    				<option value="Firefox">
+    				<option value="Chrome">
+    				<option value="Opera">
+    				<option value="Safari">
+  			</datalist><br><br>
+
+	Input / color: <input name="color" type="color" placeholder="Select color"><br><br>
+
+	Input / Email: <input name="email" type="email" placeholder="Your email"><br><br>
+
+	Input / date: <input name="date" type="date" placeholder="Select date" min="2018-10-22" max="2024-07-31"><br><br>
+
+	Input / month: <input name="month" type="month" placeholder="Select month"><br><br>
+
+	Input / number: <input name="number" type="number" placeholder="Select number" min="1" max="5"><br><br>
+
+	Input / range: 0 <input name="range" type="range" placeholder="Select range" min="0" max="10"> 10<br><br>
+
+	Input / search: <input name="search" type="search" placeholder="search"><br><br>
+
+	Input / tel: <input name="tel" type="tel" placeholder="Select tel"><br><br>
+
+	Input / time: <input name="time" type="time" placeholder="Select time"><br><br>
+
+	Input / url: <input name="url" type="url" placeholder="Select url"><br><br>
+
+	Input / week: <input name="week" type="week" placeholder="Select week"><br><br>
+	
+
+
+
+
+
+	<button type="submit" value="Skicka">Skicka</button>
+</form>
+<br><br><br><br><br><br><br><br>
+
+
+
+<form action="/action_page.php"
+  oninput = "x.value=parseInt(a.value)+parseInt(b.value)">
+  Output : [0
+  <input type="range"  id="a" name="a" value="50">
+  100] +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form> 
+<br><br><br>
+
+
+
+
+
+	</body>
+</html>
