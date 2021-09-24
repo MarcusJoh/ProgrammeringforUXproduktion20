@@ -1,0 +1,27 @@
+.helasidan{ font-style: italic; background-color: darkslategrey;}
+
+.tabletop
+{
+    background-color: tomato;
+}
+
+#introtext
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+div
+{
+    background-color: steelblue;
+    border: 2px solid black;
+    width: 60%;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+a:hover{
+    color:red;
+}
+a{
+    color: white;
+}

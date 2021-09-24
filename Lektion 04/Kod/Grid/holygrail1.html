@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID - HolyGrail1</title>
+<style>
+    .grid {
+        display: grid;
+        grid-template-columns: 10vw auto 10vw;
+        grid-gap: 0.1em;
+    }
+
+    header, footer {
+        grid-column-start: 1;
+        grid-column-end: span 3;
+    }
+
+    @media all and (max-width: 350px) {
+    aside, article {
+            grid-column-start: 1;
+            grid-column-end: span 3;
+        }
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    header, aside, article, footer {
+        background: #eaeaea;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 25vh;
+    }
+
+    aside, article{
+        padding: 1vw;
+    }
+
+
+    .sidebar-left{
+        background-color: steelblue;
+    }
+    .sidebar-right{
+        background-color: papayawhip;
+    }
+
+</style>
+
+
+
+</head>
+<body>
+    <div class="grid">
+        <header>
+            Header
+        </header>
+      
+        <aside class="sidebar-left">
+            Left Sidebar
+        </aside>
+      
+        <article>
+            Article
+        </article>
+      
+        <aside class="sidebar-right">
+            Right Sidebar
+        </aside>
+        
+        <footer>
+            Footer
+        </footer>
+      </div>
+</body>
+</html>

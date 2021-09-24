@@ -1,0 +1,16 @@
+.image_container {
+    
+    overflow:hidden;
+    text-align:center;
+    vertical-align:middle;
+}
+.image_container img {
+    vertical-align:baseline;
+}
+body{
+    background-color: black;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:blanchedalmond
+}
