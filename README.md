@@ -32,3 +32,7 @@ Kod delning
 
 Video
 - [https://www.youtube.com/playlist?list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU](https://www.youtube.com/playlist?list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU)
+
+
+Animationer 
+- https://animate.style/ 

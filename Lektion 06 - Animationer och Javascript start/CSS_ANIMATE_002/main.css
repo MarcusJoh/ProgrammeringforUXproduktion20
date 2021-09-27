@@ -1,0 +1,33 @@
+
+div {
+    border-style: dashed;
+}
+
+div p {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* more here:https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions*/
+img {
+ 
+    /*need a start value
+    width: 140px;
+    /* what property thats being changed*/
+    transition-property: width;
+    /* how long the change will take*/
+    transition-duration: 4s;
+    /* how long change takes to start*/
+    transition-delay: 2s;
+}
+
+/* and a trigger to start the transition*/
+img:hover {
+
+    width: 240px;
+
+}
+
+

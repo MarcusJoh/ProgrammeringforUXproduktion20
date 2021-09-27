@@ -1,0 +1,34 @@
+div {
+    border-style: dashed;
+}
+
+div p {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+img {
+
+
+    /* animation needs a name and a time*/
+    animation: aMove 5s;
+    /* and number for how many runs the animation will do   */
+    animation-iteration-count: 1;
+    /*use infinite to make it never stop*/
+
+}
+
+@keyframes aMove {
+
+    /* a start point */
+    from {
+        width: 0px;
+    }
+
+    /* an end point*/
+    to {
+        width: 200px;
+    }
+}

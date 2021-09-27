@@ -1,0 +1,25 @@
+div {
+    border-style: dashed;
+}
+
+div p {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* more here: https://developer.mozilla.org/en-US/docs/Web/CSS/transform*/
+img {
+
+    /* translate for moving*/
+    transform: translate(100px, 25%);
+   /* scale for the size*/
+    transform: scale(2, 0.5);
+   /* rotate for well rotating*/
+    transform: rotate(1.5turn);
+
+    /* can only do one at the time, onless you do them all in one line  */
+    transform:translate(100px, 25%) scale(2, 0.5) rotate(1.5turn);
+
+}
