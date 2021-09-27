@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - Styling</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <style>
+        .myborder-3 {
+            border-width:3px !important;
+        }
+        .mysize{
+            width: 300px;
+            height: 300px
+        }
+        .myround{
+            border-radius: 20px !important
+        }
+    </style>
+
+
+    <div class="container">
+
+        <div class="border border-primary myborder-3">1</div><br>
+        <div class="border border-warning">2</div><br>
+        <div class="border">3</div><br>
+
+        <h1>h1. Bootstrap heading</h1>
+        <h3>h3. Bootstrap heading</h3>
+        <h6>h6. Bootstrap heading</h6>
+
+        <h1 class="display-1">Display 1</h1>
+        <h1 class="display-2">Display 2</h1>
+        <h1 class="display-3">Display 3</h1>
+        <h1 class="display-4">Display 4</h1>
+
+        <p class="text-muted">Diskret</p>
+        <p class="text-primary">Primär</p>
+        <p class="text-success">Succe</p>
+        <p class="text-info">Info</p>
+        <p class="text-warning">Varning</p>
+        <p class="text-danger">Fel</p>
+
+        <div class="alert alert-success">
+            <strong>Success!</strong> Indicates a successful or positive action.
+          </div>
+          <div class="alert alert-danger">
+            <strong>Success!</strong> Indicates a successful or positive action.
+          </div>
+
+        <img src="Thinking-of-getting-a-cat.png" class="rounded myround mysize">
+        <img src="Thinking-of-getting-a-cat.png" class="rounded-circle mysize">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

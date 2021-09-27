@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - Grid</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <style>
+        .container {
+            background-color: aqua;
+        }
+        div{
+            border:black solid 2px
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Samma hela tiden -->
+            <div class="col">A Col One</div>
+            <div class="col">A Col Two</div>
+        </div>
+        <div class="row">
+            <!-- Samma för small och uppåt -->
+            <div class="col-sm-4">B1 Col One</div>
+            <div class="col-sm-8">B1 Col Two</div>
+        </div>
+        <div class="row">
+            <!-- Inte jämnt upp 12 -->
+            <div class="col-sm-4">B2 Col One</div>
+            <div class="col-sm-3">B2 Col Two</div>
+        </div>
+        <div class="row">
+            <!-- Olika beroende på bredd  -->
+            <div class="col-sm-12 col-md-4 col-lg-2">C Col One</div>
+            <div class="col-sm-12 col-md-8 col-lg-10">C Col Two</div>
+        </div>
+        <div class="row">
+            <!-- Olika ordning beroende på bredd -->
+            <div class="col-sm-6 order-md-2 order-lg-1">D Col One</div>
+            <div class="col-sm-6 order-md-1 order-lg-2">D Col Two</div>
+        </div>
+        <div class="row">
+            <!-- Annan ordning för alla bredder -->
+            <div class="col-sm-6 order-2">E Col One</div>
+            <div class="col-sm-6 order-1">E Col Two</div>
+        </div>
+
+        <div class="row">
+            <!-- Annan ordning för alla bredder -->
+            <div class="col-sm-3 offset-2">F Col One</div>
+            <div class="col-sm-6 offset-1">F Col Two</div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
