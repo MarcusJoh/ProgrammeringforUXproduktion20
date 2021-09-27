@@ -32,7 +32,8 @@ while (i < users.length) {
 
 
 
-// now with html!
+// now with html! 
+// no where you have the JS matters
 i = 0; //reset the count
 document.write("<ul>");
 
@@ -68,13 +69,11 @@ for (let i = 1; i < 5; i++) {
 
 
 
-//can be inside a function, pretty much everything can be in a function
+//can be any html
 
-function timeToloop() {
     for (let i = 1; i < 5; i++) {
 		// here we have a need for both ' and "
         document.write('<img src="img/dog.jpg" alt="dog" title="Good boy" >');
     }
 
 
-}
