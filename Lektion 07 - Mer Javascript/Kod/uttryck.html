@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	
+
+
+</head>
+
+<body>
+	<h2>Siffror</h2>
+	<button type="button" onclick="siffror()">Tryck här för plus och minus</button>
+
+
+	<h2>Text</h2>
+	<button type="button" onclick="text()">Tryck här för text</button>
+
+	<h2>Siffror och Text</h2>
+	<button type="button" onclick="siffrortext()">Tryck här för siffror och text</button>
+
+
+	<br><br><br>
+	<div id="demo" style="font-size: 25px; border: solid 2px black"></div>
+
+
+
+
+
+	
+
+
+
+
+
+	<script>
+
+		var y = document.getElementById('demo');
+
+		function siffror() {
+			var a, b, c;     	// Deklarerar tre variabler
+			a = 5;           	// Tilldelar värdet 5 till a
+			b = 6;           	// Tilldelar värdet 6 till b
+			c = a + b;       	// Tilldelar summan av a och b till c
+
+			var d = 7;			// Deklarera d och tilldelar värdet 7
+
+			y.innerHTML = c - d;
+		}
+
+
+		function text() {
+			
+			var firstName = "Bertil";
+			var lastName = "Björk";
+			y.innerHTML = firstName + " " + lastName;
+		}
+
+		function siffrortext() {
+			var x = 3.5 + 7.5 + "3";
+			y.innerHTML = x;
+		}
+
+
+	</script>
+
+
+
+
+
+</body>
+
+</html>

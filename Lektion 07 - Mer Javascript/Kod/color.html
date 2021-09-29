@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<script>
+		function changeColor(color) {
+			document.body.style.backgroundColor = color;
+		}
+
+	</script>
+</head>
+
+<body>
+	<h2>Byt färg på hemsidan</h2>
+	<input type="color" onchange="changeColor(this.value);" />
+
+	<div id="demo"></div>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link href="menu.css?" rel="stylesheet" type="text/css">
+	<script>
+		function buildMenu() {
+			var links = [
+				["DN", "http://dn.se"],
+				["Aftonbladet", "http://aftonbladet.se"],
+				["Expressen", "http://expressen.se"],
+				["Blocket", "http://blocket.se"]
+			];
+
+
+			for (var i = 0; i < links.length; i++) {
+				var list = document.createElement("li");
+				var link = document.createElement("a");
+
+				link.href = links[i][1];
+				link.appendChild(document.createTextNode(links[i][0]));
+				list.appendChild(link)
+
+				document.getElementById("menyn").appendChild(list);
+
+			}
+		}
+	</script>
+
+</head>
+
+<body>
+	<h2>Bygg meny</h2>
+
+	<ul id="menyn"></ul>
+
+	<button onclick="buildMenu()">Bygg</button>
+
+</body>
+
+</html>
