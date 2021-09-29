@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BishBosh</title>
+
+<script>
+
+function update()
+{
+	var output = "";
+	for (i = 1; i <= 100; i++) {
+	 
+		
+		if(i % 3 + i % 4 == 0)
+		{
+			output += "Bish-Bosh ";
+		}
+		else if(i % 3 == 0)
+		{
+			output += "Bish ";
+		}
+		else if(i % 4 == 0)
+		{
+			output +="Bosh "
+		}
+		else 
+		{
+			output += i + " ";
+		}
+	}
+
+	document.getElementById("out").innerHTML = output;
+}
+</script>
+
+</head>
+
+
+<body onload="update();" >
+
+		<div class="out" id="out" name="out"></div>
+
+
+</body>
+</html>

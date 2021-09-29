@@ -1,0 +1,45 @@
+.output{
+	font-family:courier;
+	font-size: 0.9em;
+}
+.digit
+{
+	float: left;
+	width: 6.5em;
+	background: #999999;
+	margin: 3px;
+	text-align: right;
+	padding: 2px;
+	font-size: 25px;
+}
+.Bish{
+	color: red;
+
+}
+.Bosh{
+	color: blue;
+}
+.Bish-Bosh{
+	color: white;
+
+}
+
+.content{
+	width: 80%;
+	margin: auto;
+}
+
+footer{
+	clear:both;
+	
+}
+
+body{
+	background-image: url("free-abstract-background-vector.jpg");
+	background-repeat: no-repeat;
+	background-color: #cccccc;
+	background-size: cover;
+	font-family: calibri, arial;
+	color: #cccccc;
+
+}
